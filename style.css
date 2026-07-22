@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background: black;
+  font-family: Arial, sans-serif;
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+.branding {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+  color: rgba(255, 0, 0, 0.8);
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px rgba(255,0,0,0.8);
+}
